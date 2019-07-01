@@ -8,6 +8,8 @@
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+
+  <script src="formulaGP.js"></script>
 </head>
 <body style="background-color: #EEECF4">
 
@@ -45,28 +47,30 @@
         <div class="col-sm-10 text-left box"> 
             
           <div class="art">
-            <h1>Sequência Fibonacci</h1>
-            <img src="/img/n1.png">
-            <p>
-                Na matemática, a Sucessão de Fibonacci (também Sequência de Fibonacci), é uma sequência de números inteiros, começando normalmente por 0 e 1, na qual, cada termo subsequente corresponde à soma dos dois anteriores. A sequência recebeu o nome do matemático italiano Leonardo de Pisa, mais conhecido por Fibonacci, que descreveu, no ano de 1202, o crescimento de uma população de coelhos, a partir desta. Esta sequência já era, no entanto, conhecida na antiguidade
-            </p>
+              <div class="form">
+            <h2>Área de um triângulo equilátero</h2>
+            <img src="/img/tri_eq.png">
+            <p> Lado: <input type="number" id="lado0"></p>
+            <br>
+            <p> <button type="button" onclick="ATriEq()">Calcular</button></p>
+            <p id="F0"></p>
+            <br>
+            <h2>Perímetro de um triângulo equilátero</h2>
+            <img src="/img/tri_eq.png">
+            <p> Lado: <input type="number" id="lado1"></p>
+            <br>
+            <p> <button type="button" onclick="PTriEq()">Calcular</button></p>
+            <p id="F1"></p>
+            </div>
           </div>
           
           <div class="art">
-              <h1>Proporção Áurea</h1>
-              <img src="/img/n2.png">
-              <p>
-                  Proporção áurea, número de ouro, número áureo, secção áurea, proporção de ouro é uma constante real algébrica irracional denotada pela letra grega PHI, em homenagem ao escultor Phideas (Fídias), que a teria utilizado para conceber o Parthenon, e com o valor arredondado a três casas decimais de 1,618.
-              </p>
-            </div>
+              
+        </div>
 
-            <div class="art">
-                <h1>Teorema de Pitágoras</h1>
-                <img src="/img/n3.png">
-                <p>
-                    O teorema de Pitágoras é uma relação matemática entre os comprimentos dos lados de qualquer triângulo retângulo. Na geometria euclidiana, o teorema afirma que: “Em qualquer triângulo retângulo, o quadrado do comprimento da hipotenusa é igual à soma dos quadrados dos comprimentos dos catetos."
-                </p>
-              </div>
+        <div class="art">
+                
+        </div>
 
         </div>
         <div class="col-sm-1"></div>
